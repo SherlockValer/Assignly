@@ -123,7 +123,18 @@ This system supports **two roles**: `Manager` and `Engineer`.
 - Profile fetch via `/api/v1/auth/profile`
 - JWT stored in localStorage (for simplicity)
 - Protected frontend routes based on user role
+- Demo Credentials for Login
 
+    ``` 
+    # Manager
+    email: manager@assignly.com
+    password: password123
+
+    # Engineer
+    email: carol@assignly.com
+    password: password123
+
+    ```
 ---
 
 ## 🛠 Database Schema
