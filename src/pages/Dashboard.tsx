@@ -372,7 +372,7 @@ const Dashboard: React.FC = () => {
                 {filteredEngineers.map((engineer) => (
                   <div
                     key={engineer._id}
-                    className="flex items-center justify-between p-4 border rounded-lg"
+                    className="flex flex-wrap gap-4 items-center justify-between p-4 border rounded-lg"
                   >
                     <div className="flex items-center space-x-4">
                       <Avatar>
